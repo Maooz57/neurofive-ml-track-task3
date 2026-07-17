@@ -6,8 +6,6 @@ This project is part of my Machine Learning Internship Task 3. The objective is 
 
 The project includes data preprocessing, exploratory data analysis (EDA), feature engineering, model training, and performance evaluation using Logistic Regression.
 
----
-
 ## Dataset
 
 The project uses the famous Titanic dataset, which contains passenger information such as:
@@ -25,8 +23,6 @@ The project uses the famous Titanic dataset, which contains passenger informatio
 
 - 0 = Did Not Survive
 - 1 = Survived
-
----
 
 ## Project Workflow
 
@@ -84,7 +80,6 @@ The model was evaluated using:
 - Accuracy Score
 - Confusion Matrix
 
----
 
 ## Results
 
@@ -93,23 +88,16 @@ The model was evaluated using:
 - Logistic Regression
 
 **Model Accuracy**
-
-```
 81.01%
-```
+
 
 ### Confusion Matrix
-
-| Actual | Predicted | Count |
-|---------|-----------|------:|
-| Not Survived → Not Survived | Correct | 90 |
-| Not Survived → Survived | Incorrect | 15 |
-| Survived → Not Survived | Incorrect | 19 |
-| Survived → Survived | Correct | 55 |
+Not Survived → Not Survived | Correct | 90 |
+Not Survived → Survived | Incorrect | 15 |
+Survived → Not Survived | Incorrect | 19 |
+Survived → Survived | Correct | 55 |
 
 The model correctly classified most passengers, achieving an accuracy of approximately **81%**. Most predictions fall on the main diagonal of the confusion matrix, indicating good overall performance.
-
----
 
 ## Technologies Used
 
@@ -120,17 +108,12 @@ The model correctly classified most passengers, achieving an accuracy of approxi
 - Seaborn
 - Scikit-learn
 
----
 
 ## Project Structure
 
-```
 ├── train.csv
 ├── neurofive-ml-track.ipynb
 ├── README.md
-```
-
----
 
 ## Learning Outcomes
 
@@ -144,7 +127,6 @@ Through this project, I learned how to:
 - Evaluate model performance using Accuracy Score and Confusion Matrix
 - Interpret machine learning results
 
----
 
 ## Author
 
